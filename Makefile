@@ -7,6 +7,9 @@ help:
 	@echo "  stop			to destroy the stack"
 
 build:
+	docker-compose build
+
+build-no-cache:
 	docker-compose build --no-cache
 
 start:
